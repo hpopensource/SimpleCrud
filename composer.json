@@ -1,0 +1,25 @@
+{
+  "name": "weborion/simple-crud",
+  "description": "Magento 2 - CRUD",
+  "require": {
+    "php": ">=7.1"
+  },
+  "license": [
+    "MIT"
+  ],
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "hp"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Weborion\\SimpleCrud\\": ""
+    }
+  }
+}
